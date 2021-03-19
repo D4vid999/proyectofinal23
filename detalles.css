@@ -1,0 +1,424 @@
+.papa{
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	width: 700px;
+	height: 1000px;
+	background: red;
+	border:solid 3px black;
+	z-index: 2;
+}
+.foto1{
+	position: absolute;
+	top: 300px;
+	left: 230px;
+	width: 300px;
+	height: 160px;
+	background: url(jud2.png);
+	background-size: cover;
+	transform: rotate(90deg);
+	z-index: 3;
+}
+.foto2{
+	position: absolute;
+	top: 300px;
+	left: 777px;
+	width: 300px;
+	height: 160px;
+	background: url(jud2.png);
+	background-size: cover;
+	transform: rotate(-90deg);
+	z-index: 3;
+}
+.papa1{
+	position: absolute;
+	top: 54px;
+	left: 400px;
+	width: 500px;
+	height: 20px;
+	background: yellow;
+	border:solid 3px orange;
+	z-index: 3;
+}
+.papa2{
+	position: absolute;
+	top: 1025px;
+	left: 400px;
+	width: 500px;
+	height: 20px;
+	background: yellow;
+	border:solid 3px orange;
+	z-index: 3;
+}
+@font-face{
+	font-family:txt1;
+	src: url(amerca.ttf);
+}
+@font-face{
+	font-family:txt2;
+	src: url(ene.ttf);
+}
+@font-face{
+	font-family:txt3;
+	src: url(snow.ttf);
+}
+
+.texto1{
+	position: absolute;
+	top: 50px;
+	left: 230px;
+	color: orange;
+	font-size: 100px;
+	font-family:txt1;
+}
+.texto2{
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	color: orange;
+	font-size: 20px;
+	font-family:txt1;
+}
+.papa3{
+	position: absolute;
+	top: 205px;
+	left: 495px;
+	width: 100px;
+	height: 5px;
+	background: yellow;
+	border:solid 3px orange;
+	z-index: 3;
+}
+.papa4{
+	position: absolute;
+	top: 205px;
+	left: 700px;
+	width: 100px;
+	height: 5px;
+	background: yellow;
+	border:solid 3px orange;
+	z-index: 3;
+
+}
+.texto3{
+	position: absolute;
+	top: 190px;
+	left: 190px;
+	color: orange;
+	font-size: 50px;
+	font-family:txt2;
+}
+.texto4{
+	position: absolute;
+	top: 230px;
+	left: 200px;
+	color: white;
+	font-size: 70px;
+	font-family:txt3;
+}
+.texto5{
+	position: absolute;
+	top: 450px;
+	left: 190px;
+	color: orange;
+	font-size: 50px;
+	font-family:txt2;
+}
+.foto3{
+	position: absolute;
+	top: 600px;
+	left: 450px;
+	width: 400px;
+	height: 400px;
+	background: url(t6.png);
+	background-size: cover;
+	z-index: 3;
+}
+.foto4{
+	position: absolute;
+	top: 800px;
+	left: 450px;
+	width: 250px;
+	height: 250px;
+	background: url(g2.png);
+	z-index: 3;
+	background-size: cover;
+}
+.foto5{   
+	position: absolute;
+	top: 600px;
+	left: 570px;
+	width: 190px;
+	height: 190px;
+	background: url(pit2.png);
+	z-index: 3;
+	background-size: cover;
+}
+.papa7{
+    position: absolute;
+	top: 700px;
+	left: 340px;
+	width: 90px;
+	height: 90px;
+	background: yellow;
+	border:solid 3px orange;
+	z-index: 3;
+	
+}
+.texto6{
+    position: absolute;
+	top: 700px;
+	left: 340px;
+	color: black;
+	font-size: 20px;
+	font-family:txt4;
+	z-index: 3;
+}
+@font-face{
+	font-family:txt4;
+	src: url(ci.ttf);
+}
+.bandera{
+	position: absolute;
+	top: 530px;
+	left: 900px;
+	width: 100px;
+	height: 100px;
+	background: url(chile.png);
+	background-size: cover;
+    border-radius: 200px;
+    border:solid 3px black;
+	z-index: 2;
+}
+.bandera1{
+	position: absolute;
+	top: 600px;
+	left: 900px;
+	width: 100px;
+	height: 100px;
+	background: url(colombia.png);
+	background-size: cover;
+    border-radius: 200px;
+    border:solid 3px black;
+	z-index: 3;
+}
+.bandera2{
+	position: absolute;
+	top: 670px;
+	left: 900px;
+	width: 100px;
+	height: 100px;
+	background: url(bolivia.png);
+	background-size: cover;
+    border-radius: 200px;
+    border:solid 3px black;
+	z-index: 4;
+}
+.bandera3{
+	position: absolute;
+	top: 740px;
+	left: 900px;
+	width: 100px;
+	height: 100px;
+	background: url(ecuador.png);
+	background-size: cover;
+    border-radius: 200px;
+    border:solid 3px black;
+	z-index: 5;
+}
+.bandera4{
+	position: absolute;
+	top: 810px;
+	left: 900px;
+	width: 100px;
+	height: 100px;
+	background: url(paraguay.png);
+	background-size: cover;
+    border-radius: 200px;
+    border:solid 3px black;
+	z-index: 5;
+}
+.bandera5{
+	position: absolute;
+	top: 880px;
+	left: 900px;
+	width: 100px;
+	height: 100px;
+	background: url(urugay.png);
+	background-size: cover;
+    border-radius: 200px;
+    border:solid 3px black;
+	z-index: 5;
+}
+.texto14{
+    position: absolute;
+	top: 560px;
+	left: 850px;
+	color: white;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto7{
+   position: absolute;
+	top: 600px;
+	left: 340px;
+	color: yellow;
+	font-size: 20px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto8{
+    position: absolute;
+	top: 810px;
+	left: 340px;
+	color: yellow;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto9{
+	position: absolute;
+	top: 640px;
+	left: 830px;
+	color: white;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto10{
+	position: absolute;
+	top: 720px;
+	left: 830px;
+	color: white;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto11{
+	position: absolute;
+	top: 800px;
+	left: 830px;
+	color: white;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto12{
+	position: absolute;
+	top: 880px;
+	left: 830px;
+	color: white;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto13{
+	position: absolute;
+	top: 960px;
+	left: 830px;
+	color: white;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto15{
+	position: absolute;
+	top: 960px;
+	left: 500px;
+	color: yellow;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto16{
+	position: absolute;
+	top: 960px;
+	left: 540px;
+	color: white;
+	font-size: 10px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto17{
+    position: absolute;
+	top: 870px;
+	left: 340px;
+	color: yellow;
+	font-size: 20px;
+	font-family:txt4;
+	z-index: 3;
+}
+.texto18{
+    position: absolute;
+	top: 970px;
+	left: 540px;
+	color: orange;
+	font-size: 40px;
+	font-family:txt1;
+	z-index: 3;
+}
+.texto19{
+    position: absolute;
+	top: 970px;
+	left: 570px;
+	color: yellow;
+	font-size: 40px;
+	font-family:txt1;
+	z-index: 3;
+}
+
+.texto20{
+    position: absolute;
+	top: 970px;
+	left: 600px;
+	color: blue;
+	font-size: 40px;
+	font-family:txt1;
+	z-index: 3;
+}
+.texto21{
+    position: absolute;
+	top: 970px;
+	left: 630px;
+	color: green;
+	font-size: 40px;
+	font-family:txt1;
+	z-index: 3;
+}
+.texto22{
+    position: absolute;
+	top: 970px;
+	left: 660px;
+	color: blue;
+	font-size: 40px;
+	font-family:txt1;
+	z-index: 3;
+}
+.texto23{
+    position: absolute;
+	top: 970px;
+	left: 690px;
+	color: yellow;
+	font-size: 40px;
+	font-family:txt1;
+	z-index: 3;
+}
+.texto24{
+    position: absolute;
+	top: 970px;
+	left: 720px;
+	color: pink;
+	font-size: 40px;
+	font-family:txt1;
+	z-index: 3;
+}
+.texto25{
+    position: absolute;
+	top: 970px;
+	left: 750px;
+	color: purple;
+	font-size: 40px;
+	font-family:txt1;
+	z-index: 3;
+}
